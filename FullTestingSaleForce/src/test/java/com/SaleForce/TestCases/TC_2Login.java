@@ -34,7 +34,7 @@ public class TC_2Login {
 			System.out.println("test case 2 failed");
 		}
 
-		driver.quit();
+		//driver.quit();
 
 	}
 }

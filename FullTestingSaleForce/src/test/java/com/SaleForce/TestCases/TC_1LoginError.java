@@ -32,7 +32,7 @@ public class TC_1LoginError {
 		String text = driver.findElement(By.id("error")).getText();
 		System.out.println(text);
 		Assert.assertEquals("Please enter your password.", text, "Test case  1 passed");
-		driver.quit();
+		//driver.quit();
 
 	}
 
